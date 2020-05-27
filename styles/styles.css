@@ -69,6 +69,9 @@ h2 {
         top: 100%;
         left: 0;
     }
+    h2.highlight.red { color: #e84e50; }
+    h2.highlight.red small { color: #003357; }
+    h2.highlight.red::after { background: #e84e50; }
 
     h2.highlight.highlight-big { font-size: 100px; font-weight: 600; line-height: 85px; }
     h2.highlight.highlight-big small { font-size: 60px; font-weight: 400; }
@@ -650,7 +653,9 @@ footer {
     font-size: 18px;
     font-weight: 600;
     border-radius: 6px;
+    transition: all .3s ease-in-out;
 }
+    .form-default button:hover { opacity: .8; }
 
 .img-contato { 
     margin-top: -50px;
@@ -696,6 +701,72 @@ footer {
     .email a:hover { color: #003153; }
 
 .clear { display: block; width: 100%; height: 1px; }
+
+
+.box-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+    .box-icon img {
+        margin-bottom: 20px;
+    }
+    .box-icon div {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-icon span {
+        font-size: 19px;
+        color: #004372;
+        display: block;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    .box-icon p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+
+
+.fretamento {
+    background: url(../images/bg-fretamento.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+    .fretamento h2.highlight { color: #fff; }
+    .fretamento h2.highlight::after { background: #e84e50; }
+    .fretamento h2.highlight small { color: #e84e50; }
+    .fretamento p { color: #fff; }
+    .fretamento p strong { color: #e84e50; font-size: 20px; }
+    .fretamento label { color: #fff; }
+    .fretamento .search { display: flex; }
+    .fretamento .search input { margin-bottom: 0; border: none; }
+    .fretamento svg path { fill: #e84e50; }
+    .fretamento .search-date { position: relative; margin-bottom: 30px; }
+    .fretamento .search-date input { margin: 0; }
+    .fretamento .search-date svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 20px;
+        margin: auto;
+    }
+    .fretamento .search { margin-bottom: 25px; }
+    .fretamento button { background: #e84e50; color: #fff; border: none; transition: all .3s ease-in-out; }
+    .fretamento button:hover { opacity: .8; }
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 968px) {
