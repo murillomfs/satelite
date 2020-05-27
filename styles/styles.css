@@ -1,4 +1,4 @@
-@import url(../images/bg-header.jpg'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -398,7 +398,7 @@ footer {
     border: 1px solid #dadce0;
     height: 36px;
     border-radius: 80px;
-    background: #fff url(../images/bg-header.jpgimages/arrow-down.png) right 15px center no-repeat;
+    background: #fff url(../images/arrow-down.png) right 15px center no-repeat;
     padding: 0 15px;
     line-height: 36px;
     margin-right: 5px;
@@ -522,7 +522,7 @@ footer {
     width: 290px;
     padding: 120px 15px 60px;
     min-height: 760px;
-    background: url(../images/bg-header.jpgimages/bg-bus.jpg) center center no-repeat;
+    background: url(../images/bg-bus.jpg) center center no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -597,7 +597,7 @@ footer {
 
 .sobre {
     padding: 70px 0;
-    background: url(../images/bg-header.jpgimages/bg-sobre.jpg) center center no-repeat;
+    background: url(../images/bg-sobre.jpg) center center no-repeat;
     background-size: cover;
 }
     .sobre p {
