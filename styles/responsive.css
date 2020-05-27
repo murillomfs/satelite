@@ -45,6 +45,20 @@ form .form-default .row {
     text-align: center;
 }
 
+/*SOBRE*/
+
+h2.highlight.highlight-big {
+    text-align: center;
+}
+
+h2.highlight {
+    text-align: center;
+}
+
+h2.highlight::after {
+    left: calc(50% - 42.5px);
+}
+
 /*FOOTER*/
 
 .footer-content {
