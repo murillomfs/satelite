@@ -1,0 +1,68 @@
+@media (max-width: 1300px) {
+
+.container {
+    width: auto;
+}
+
+/*INDEX*/
+
+.banner img {
+    width: 100%;
+}
+
+.link-simple {
+    text-align: right;
+    padding: 10px 0;
+}
+
+h3 {
+    padding: 40px 0 10px 0;
+}
+
+.infos {
+    text-align: center;
+}
+
+.promo-image img {
+    width: 100%;
+}
+
+.box-promo {
+    width: 100%;
+}
+
+.promo-image {
+    height: 200px;
+}
+
+/*FOOTER*/
+
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    align-items: center;
+}
+
+footer .footer-content div {
+    width: 100%;
+}
+
+/*COPYRIGHT*/
+
+.copyright {
+    height: 240px;
+}
+
+.copyright p {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.copyright img {
+    margin-top: 10x;
+}
+
+}
