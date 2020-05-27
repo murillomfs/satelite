@@ -35,6 +35,16 @@ h3 {
     height: 200px;
 }
 
+/*CONTATO*/
+
+.img-contato {
+    margin-top: 30px;
+}
+
+form .form-default .row {
+    text-align: center;
+}
+
 /*FOOTER*/
 
 .footer-content {
