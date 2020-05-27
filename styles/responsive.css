@@ -1,0 +1,92 @@
+@media (max-width: 1300px) {
+
+.container {
+    width: auto;
+}
+
+/*INDEX*/
+
+.banner img {
+    width: 100%;
+}
+
+.link-simple {
+    text-align: right;
+    padding: 10px 0;
+}
+
+h3 {
+    padding: 40px 0 10px 0;
+}
+
+.infos {
+    text-align: center;
+}
+
+.promo-image img {
+    width: 100%;
+}
+
+.box-promo {
+    width: 100%;
+}
+
+.promo-image {
+    height: 200px;
+}
+
+/*CONTATO*/
+
+.img-contato {
+    margin-top: 30px;
+}
+
+form .form-default .row {
+    text-align: center;
+}
+
+/*SOBRE*/
+
+h2.highlight.highlight-big {
+    text-align: center;
+}
+
+h2.highlight {
+    text-align: center;
+}
+
+h2.highlight::after {
+    left: calc(50% - 42.5px);
+}
+
+/*FOOTER*/
+
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    align-items: center;
+}
+
+footer .footer-content div {
+    width: 100%;
+}
+
+/*COPYRIGHT*/
+
+.copyright {
+    height: 240px;
+}
+
+.copyright p {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.copyright img {
+    margin-top: 10x;
+}
+
+}
