@@ -1,92 +1,109 @@
-@media (max-width: 1300px) {
+@media (max-width: 1366px) {
 
-.container {
-    width: auto;
-}
+    .container {
+        width: auto;
+    }
 
-/*INDEX*/
+    /*INDEX*/
 
-.banner img {
-    width: 100%;
-}
+    .banner img {
+        width: 100%;
+    }
 
-.link-simple {
-    text-align: right;
-    padding: 10px 0;
-}
+    .link-simple {
+        text-align: right;
+        padding: 10px 0;
+    }
 
-h3 {
-    padding: 40px 0 10px 0;
-}
+    h3 {
+        padding: 40px 0 10px 0;
+    }
 
-.infos {
-    text-align: center;
-}
+    .infos {
+        text-align: center;
+    }
 
-.promo-image img {
-    width: 100%;
-}
+    .promo-image img {
+        width: 100%;
+    }
 
-.box-promo {
-    width: 100%;
-}
+    .box-promo {
+        width: 100%;
+    }
 
-.promo-image {
-    height: 200px;
-}
+    .promo-image {
+        height: 200px;
+    }
 
-/*CONTATO*/
+    /*CONTATO*/
 
-.img-contato {
-    margin-top: 30px;
-}
+    .img-contato {
+        margin-top: 30px;
+    }
 
-form .form-default .row {
-    text-align: center;
-}
+    form .form-default .row {
+        text-align: center;
+    }
 
-/*SOBRE*/
+    /*SOBRE*/
 
-h2.highlight.highlight-big {
-    text-align: center;
-}
+    h2.highlight.highlight-big {
+        text-align: center;
+    }
 
-h2.highlight {
-    text-align: center;
-}
+    h2.highlight {
+        text-align: center;
+    }
 
-h2.highlight::after {
-    left: calc(50% - 42.5px);
-}
+    h2.highlight::after {
+        left: calc(50% - 42.5px);
+    }
 
-/*FOOTER*/
 
-.footer-content {
-    flex-direction: column;
-    text-align: center;
-}
+    /*BUSCA-EXECUTIVO*/
 
-footer {
-    align-items: center;
-}
+    .passagem-resumo {
+        flex-direction: column;
+    }
 
-footer .footer-content div {
-    width: 100%;
-}
+    .passagem-ticket {
+        width: 30%;
+    }
 
-/*COPYRIGHT*/
+    /*FRETAMENTO*/
 
-.copyright {
-    height: 240px;
-}
+    .fretamento {
+        padding: 25px 0;
+    }
 
-.copyright p {
-    line-height: 20px;
-    margin-bottom: 10px;
-}
+    /*FOOTER*/
 
-.copyright img {
-    margin-top: 10x;
-}
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        align-items: center;
+    }
+
+    footer .footer-content div {
+        width: 100%;
+    }
+
+    /*COPYRIGHT*/
+
+    .copyright {
+        height: 240px;
+    }
+
+    .copyright p {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .copyright img {
+        margin-top: 10x;
+    }
 
 }
