@@ -53,6 +53,7 @@
 
     h2.highlight {
         text-align: center;
+        margin-top: 15px;
     }
 
     h2.highlight::after {
@@ -74,6 +75,24 @@
 
     .fretamento {
         padding: 25px 0;
+    }
+
+    /*ENCOMENDAS*/
+
+    .box-entrega {
+        text-align: center;
+    }
+
+    .entrega-label {
+        right: 25%;
+    }
+
+    .areas-de-atuacao p {
+        margin-top: 25px;
+    }
+
+    .button-yellow {
+        margin-bottom: 15px;
     }
 
     /*FOOTER*/
